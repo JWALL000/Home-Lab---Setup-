@@ -52,8 +52,8 @@ port forwarding rule inside of my hypervisor which I will show below.
 ![Home Lab8](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%208(fleet%20in%20elastic).PNG)
 ![Home Lab9](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%209(fleet%20in%20elastic%20-%20set%20up%20part%202%20).PNG) 
 ![Home Lab10](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2010(setting%20up%20fleet%20using%20ssh%20from%20host%20system%20).PNG)
-![Home Lab11](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2011(elastic%20service%20running.PNG) 
-![Home Lab12](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20Lab%20on%20premise%2054%20-%20Web%20GUI%20port%20forwarding%20rule).PNG)
+![Home Lab11](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2011(elastic%20service%20running.PNG))
+![Home Lab12](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20Lab%20on%20premise%2054%20-%20Web%20GUI%20port%20forwarding%20rule)
 
 
 ## Step 6.
