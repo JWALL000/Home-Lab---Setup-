@@ -26,13 +26,15 @@ I started by configuring and setting up my ELK server. I then also decided to do
 
 ## Step 2. 
 
+I then installed Elasticsearch and Kibana onto my ELK server. 
 
-
-
-
-
+![Home Lab5](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%205(downloading%20and%20installing%20elasticsearch%20and%20kibana).PNG)
 
 ## Step 3. 
+
+Next, I created the encryption keys inside of Kibana. 
+
+![Home Lab6](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%206(creating%20kibana%20encryption%20keys).PNG)
 
 
 ## Step 4. 
