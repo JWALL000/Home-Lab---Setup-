@@ -160,9 +160,16 @@ I also had to change some settings in the config file for PHPmyAdmin - this was 
 
 ![Home Lab36](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2039%20PHP%20My%20admin%20-%20Changing%20config%20file%20to%20allow%20access.PNG)
 
-I then had to edit privileges to my root account. I did this to be sure I would have all needed permissions to access the databases.
+I then had to edit privileges to my root account. I did this to be sure I would have all needed permissions to access the database.
 
 ![Home Lab37](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2040%20PHP%20my%20Admin%20-Editing%20privileges%20.PNG)
+
+## Step 13.
+
+In this step I started setting up my osTicket. 
+
+![Home Lab38](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2041%20Setting%20up%20osTicket.PNG)
+
 
 
 
