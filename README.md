@@ -55,6 +55,16 @@ port forwarding rule inside of my hypervisor which I will show below.
 ![Home Lab11](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2011(elastic%20service%20running).PNG)
 ![Home Lab12](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20Lab%20on%20premise%2054%20-%20(Web%20GUI%20port%20forwarding%20rule).PNG)
 
+## Step 6. 
+
+Next, It was time to install the elastic agent onto my Windows machine. 
+
+![Home Lab13](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2012(elastic%20agent%20in%20windows).PNG)
+![Home Lab14](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2013(setting%20upelastic%20agent%20in%20windows%20).PNG)
+![Home Lab15](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2014(setting%20upelastic%20agent%20in%20windows%20-%20incoming%20data%20).PNG)
+![Home Lab16](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2015(%20Dashboard%20overview%20).PNG)
+
+
 
 
 
