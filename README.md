@@ -57,12 +57,41 @@ port forwarding rule inside of my hypervisor which I will show below.
 
 ## Step 6. 
 
-Next, It was time to install the elastic agent onto my Windows machine. 
+Next, It was time to install the Elastic agent onto my Windows machine. 
 
 ![Home Lab13](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2012(elastic%20agent%20in%20windows).PNG)
 ![Home Lab14](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2013(setting%20upelastic%20agent%20in%20windows%20).PNG)
 ![Home Lab15](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2014(setting%20upelastic%20agent%20in%20windows%20-%20incoming%20data%20).PNG)
 ![Home Lab16](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2015(%20Dashboard%20overview%20).PNG)
+
+## Step 7. 
+
+I then installed the Elastic agent onto my Ubuntu server(SSH). 
+
+![Home Lab17](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2016(%20Elastic%20Agent%20install%20on%20Ubuntu%20server%20).PNG)
+
+
+## Step 8. 
+
+Next it was time to install custom Windows logs into my fleet server using the web GUI. 
+
+![Home Lab18](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2017(%20Adding%20custom%20windows%20logs%20integration%20into%20fleet%20).PNG)
+![Home Lab19](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2018(%20Adding%20custom%20windows%20log%20integrations%20into%20Elastic%20Agent%20-%20Both%20Sysmon%20%26%20Defender%20%20).PNG) 
+
+
+## Step 9. 
+
+I then installed docker compose onto my Mythic server - this would be used to access to the containers needed to run my C2 server. I also added another port forwarding rule to access to the web GUI for Mythic. 
+
+![Home Lab20](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2019%20(Installing%20docker%20compose%20into%20mythic%20server).PNG) 
+![Home Lab21](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2020%20(Installing%20docker%20into%20mythic%20server).PNG)
+![Home Lab22](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2021%20(After%20installing%20new%20port%20forwarding%20rule%20to%20virtual%20box%20for%20access%20to%20web%20GUI).PNG)
+![Home Lab23](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2022%20(After%20getting%20access%20to%20web%20GUI).PNG)
+
+
+
+
+
 
 
 
