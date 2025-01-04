@@ -119,7 +119,52 @@ Next it was time to invoke a web request to download the file.
 
 As you can see, the file was then found in the downloads folder - I then ran the program. 
 
-![Home Lab29](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2029%20-%20File%20then%20found%20in%20downloads%20windows%20server.PNG)
+![Home Lab29](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2029%20-%20File%20then%20found%20in%20downloads%20windows%20server.PNG) 
+
+Next, I went back to my Mythic and looked to see if the file had been downloaded or If I had an active callback, as you can see - it shows up. 
+
+![Home Lab30](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2030%20File%20then%20shows%20as%20downloaded%20mythic.PNG)
+![Home Lab31](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2031%20Active%20callback%20mythic.PNG)
+
+
+## Step 12. 
+
+Next it was time to download XAMPP onto my osTicket VM - This would allow me to host osTicket there. XAMPP was great to this as it would allow me to run a SQL server and well as an Apache server. In the steps below I will show how I did this and also 
+how I set up PHPmyAdmin.
+
+![Home Lab30](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2032%20Downloading%20Xampp.PNG)
+
+Downloading osTicket. 
+
+![Home Lab31](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2033%20Downloading%20osTicket.PNG)
+
+Next I had to Change config file in XAAMP from the host ip to the IP of osTicket virtual machine. 
+
+![Home Lab32](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2034%20Changing%20config%20file%20in%20XAAMP%20to%20IP%20of%20osTicket%20server-Apache%20domain%20name%20and%20SQL.PNG)
+
+I then started both my apache and SQL server in XAMPP.
+
+![Home Lab33](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2035%20PHP%20My%20admin.PNG) 
+
+Next, it was time to change some setting in phpmyadmin on order to get osTicket to run correctly.
+
+![Home Lab34](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2036%20PHP%20My%20admin%20set%20up.PNG)
+
+![Home Lab35](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2037%20PHP%20My%20admin%20set%20up%20-Name%20in%20database.PNG)
+
+In this next step I added the IP of my virtual machine to the host name.
+
+![Home Lab36](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2038%20PHP%20My%20admin%20-%20Adding%20IP%20to%20host%20name.PNG)
+
+I also had to change some settings in the config file for PHPmyAdmin - this was so I could access the dashboard again as the settings in the previous step would have not granted me access.
+
+![Home Lab36](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2039%20PHP%20My%20admin%20-%20Changing%20config%20file%20to%20allow%20access.PNG)
+
+
+
+
+
+
 
 
 
