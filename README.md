@@ -166,9 +166,38 @@ I then had to edit privileges to my root account. I did this to be sure I would 
 
 ## Step 13.
 
-In this step I started setting up my osTicket. 
+In this step I started setting up my osTicket and linking it to my PhpmyAdmin databases. 
 
 ![Home Lab38](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2041%20Setting%20up%20osTicket.PNG)
+
+![Home Lab39](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2042%20Finished%20setting%20up%20osTicket%20and%20finished%20linking%20to%20Php%20admin.PNG)
+
+## Step 14. 
+
+Before osTicket was fully setup, I needed to finish a few things.
+
+The first thing was to edit a config file in osTicket. 
+
+![Home Lab40](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2043%20Editing%20config%20file%20osTicket.PNG)
+
+I also had to reset the config file using a command in powershell. 
+
+![Home Lab41](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2044%20Editing%20config%20file%20osTicket%20-%20Powershell.PNG)
+
+Then I was finished setting up osTicket! 
+
+
+## Step 15. 
+
+In this step, I needed to link osTicket using a webhook and an API key. 
+
+![Home Lab42](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2045%20creating%20api%20key%20to%20link%20osticket%20to%20elastic.PNG) 
+
+![Home Lab43](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2046%20(using%20a%20webhook%20to%20link%20osticket%20to%20elastic).PNG) 
+
+
+
+
 
 
 
