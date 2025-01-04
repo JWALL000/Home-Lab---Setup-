@@ -88,6 +88,48 @@ I then installed docker compose onto my Mythic server - this would be used to ac
 ![Home Lab22](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2021%20(After%20installing%20new%20port%20forwarding%20rule%20to%20virtual%20box%20for%20access%20to%20web%20GUI).PNG)
 ![Home Lab23](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2022%20(After%20getting%20access%20to%20web%20GUI).PNG)
 
+## Step 10.
+
+Next, I installed my Mythic C2 profile to Mythic and Apollo on to Mythic: 
+
+![Home Lab24](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2023(Installing%20C2%20Profile%20for%20mythic).PNG) 
+
+Installing Apollo:
+
+![Home Lab25](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2024%20(Installing%20Apollo%20into%20mythic).PNG) 
+
+The C2 profile and Apollo installed into Mythic:
+
+![Home Lab26](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2025%20(Installed%20apollo%20agent%20and%20c2%20profile%20into%20mythic).PNG) 
+
+
+## Step 11. 
+
+Next, it was time to host my http module on my Mythic server so the malicious file could be downloaded onto my Windows client server. 
+
+![Home Lab27](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2026%20(hosting%20http%20module%20using%20python3%20to%20download%20malicious%20file%20onto%20windows%20server).PNG) 
+
+I then turned off real time protection on my Windows server as it would allow me to download the malicious file. 
+
+![Home Lab28](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2027%20(turning%20off%20real%20time%20protection%20on%20windows%20server).PNG) 
+
+Next it was time to invoke a web request to download the file. 
+
+![Home Lab29](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2028%20(invoking%20webrequest%20to%20download%20malicious%20file).PNG)
+
+As you can see, the file was then found in the downloads folder - I then ran the program. 
+
+![Home Lab29](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2029%20-%20File%20then%20found%20in%20downloads%20windows%20server.PNG)
+
+
+
+
+
+
+
+
+                                                                                      
+
 
 
 
