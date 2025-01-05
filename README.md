@@ -249,17 +249,13 @@ As you can see in that time frame I got alot of alerts pointing to authenticatio
 
 ## Closing Comments 
 
-I would like to say that I learned alot from this project such as what a basic setup of a corporate nework can look like, SSHing into servers from Powershell, Configuring and setting up port forwarding and firewall rules so I could access web GUIs, 
-What an SSH brute force attack looks like in Elastic, What the ELK stack is and what the different components do,
-How to carry out an SSH brute force attack in Kali Linux, What Sysmon does in Windows, and more experience using BA$H. 
+I would like to say that I learned a lot from this project, such as what a basic setup of a corporate network can look like, SSHing into servers from PowerShell, configuring and setting up port forwarding and firewall rules to access web GUIs, identifying what an SSH brute force attack looks like in Elastic, understanding the ELK stack and its components, carrying out an SSH brute force attack in Kali Linux, learning what Sysmon does in Windows, and gaining more experience using Bash.
 
-All of these skills I believe could be transferrable into my porfessional life and also help me get my first job in Cybersecurity.
+I believe all these skills are transferable to my professional life and will help me secure my first job in cybersecurity.
 
+This is not the end of my plans for this lab. I aim to properly utilize the ticketing system built into osTicket, expand my knowledge of malware types and their behavior using my Mythic C2 server, and configure Elasticsearch to include custom searches and create more dashboards. However, I felt that so much effort went into the planning and execution of this lab that I wanted to upload it here and share the steps. I plan to do the same for any future exercises I undertake using this home lab.
 
-This is not the only plan I have for this lab as I wish to properly utilize the ticketing system built in osTicket, expand my knowledge of malware types and what they do using my Mythic C2 server and to properly configure Elasticsearch to add custom searches and create more dashboards - but I thought so much went into the planning and execution of this lab that I thought I would upload it here and show the steps as I will do the same for any other exercises I do using this home lab. 
-
-
-I would like to thank whoever is reading this again for taking the time to see how I set up and confiured my home lab. 
+Thank you again for taking the time to see how I set up and configured my home lab.
 
 
 
