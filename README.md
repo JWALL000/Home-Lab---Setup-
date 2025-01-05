@@ -220,7 +220,7 @@ Next you can see how the Webhook test went.
 
 ![Home Lab46](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2049%20(Test%20successful%20for%20webhook).PNG) 
 
-## step 16. 
+## Step 16. 
 
 Now is was time to start generating telemetry using Metasploit in Kali Linux specifically - ssh brute force telemetry. 
 
