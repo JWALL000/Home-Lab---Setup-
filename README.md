@@ -233,6 +233,20 @@ In my last step of this lab setup, It was time to go back over to my Elastic age
 As you can see in that time frame I got alot of alerts pointing to authentication failure - so its safe to say we generated telemetry. 
 
 
+## Closing Comments 
+
+I would like to say that I learned alot from this project such as what a basic setup of a corporate nework can look like, SSHing into servers from Powershell, Configuring and setting up port forwarding and firewall rules so I could access web GUIs, What an SSH brute force attack looks like in Elastic, What the ELK stack is and what the different components do, How to carry out an SSH brute force attack in Kali Linux, what Sysmon does in Windows, and more experience using BA$H. 
+
+All of these skills I believe could be transferrable into my porfessional life and also help me get my first job in Cybersecurity.
+
+This is not the only plan I have for this lab as I wish to properly utilize the ticketing system built in osTicket, expand my knowlege of malware types and what they do using my Mythic C2 server and to properly configure Elasticsearch to add custom searches and create more dashboards - but I thought so much went into the planning and execution of this lab that I thought I would upload it here and show the steps as I will do the same for any other exercises I do using this home lab. 
+
+I would like to thank whoever is reading this again for taking the time to see how I set up and confiured my home lab. 
+
+
+
+
+
 
 
 
