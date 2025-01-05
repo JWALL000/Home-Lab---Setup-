@@ -195,6 +195,58 @@ In this step, I needed to link osTicket using a webhook and an API key.
 
 ![Home Lab43](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2046%20(using%20a%20webhook%20to%20link%20osticket%20to%20elastic).PNG) 
 
+As you can see below, our Webhook test failed - This was because we needed to add a firewall rule in our Windows osTicket VM which I will show below.
+
+![Home Lab44](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2047%20(webhook%20test%20failed%20after%20using%20xml%20payload%20from%20ostickets%20github).PNG) 
+
+Here is our new inbound firewall rule - to allow connections from port 80 and 443. 
+
+![Home Lab45](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2048%20(new%20firewall%20rule%20for%20osticket%20VM).PNG) 
+
+Next you can see how the Webhook test went. 
+
+![Home Lab46](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2049%20(Test%20successful%20for%20webhook).PNG) 
+
+## step 16. 
+
+Now is was time to start generating telemetry using Metasploit in Kali Linux specifically - ssh brute force telemetry. 
+
+I started Kali Linux and changed the directory to wordlists, I then navigated to a file called rockyou.txt. Next I unzipped the the file uzing gunzip. 
+
+![Home Lab47](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2050%20(Using%20metaploit%20to%20generate%20brute%20force%20ssh%20telemetery).PNG)
+
+Next I started the Metasploit console and then went to auxilliary/scanner/ssh/ssh_login and show options. The one I wanted to select was pass_file.
+
+![Home Lab48](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2051%20Using%20metaploit%20to%20generate%20brute%20force%20ssh%20telemetery-Continued.PNG)
+
+Next I selected the server I wanted to brute force which was my sshUbuntu server that I had enrolled as an agent under my fleet in Elastic and started the brute force. 
+
+![Home Lab49](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2052%20(starting%20brute%20force).PNG)
+
+
+## Step 17. 
+
+In my last step of this lab setup, It was time to go back over to my Elastic agent and look for my ssh brute force activity. 
+
+![Home Lab50](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2053%20telemetry%20generated%20Brute%20Force%20SSH.PNG)
+
+As you can see in that time frame I got alot of alerts pointing to authentication failure - so its safe to say we generated telemetry. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
