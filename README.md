@@ -1,15 +1,14 @@
 ## Project Overview 
 
-In this project I successfully installed and configured multiple servers and operating systems to make a fully on premise home lab setup. This project allowed my to further develop my Cybersecurity IT skills and allowed me to gain a better understanding of
-how a basic corporate network and security tools work together. 
+In this project, I successfully installed and configured multiple servers and operating systems to create a fully on-premise home lab setup. This project allowed me to further develop my cybersecurity and IT skills while gaining a better understanding of how a basic corporate network and its security tools work together.
 
-I was inspired to do this project after seeing a video from Steven at the myDFIR Youtube channel who I owe a big thank you to for the knowledge and tips. 
+I was inspired to undertake this project after watching a video by Steven from the myDFIR YouTube channel, to whom I owe a big thank you for the knowledge and tips he shared.
 
-In the below steps, I hope to show you how I achieved this and how much I have learned since starting the project. 
+In the steps below, I aim to demonstrate how I achieved this setup and highlight how much I have learned throughout the process.
 
-Thank you to whoever takes the time to have a look at this project - it is much appreciated! 
+Thank you to everyone who takes the time to review this project—it is greatly appreciated!
 
-Lets begin. 
+Let’s begin.
 
 
 I ended up going with Virtual Box as a hypervisor as I was the most familiar with it, I also used 4 Ubuntu servers(ELK, Fleet, SHH, Mythic) 2 Windows servers (one as a target server, one for osTicket) and an instance of Kali Linux. 
