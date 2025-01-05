@@ -211,7 +211,7 @@ Next you can see how the Webhook test went.
 
 Now is was time to start generating telemetry using Metasploit in Kali Linux specifically - ssh brute force telemetry. 
 
-I started Kali Linux and changed the directory to wordlists, I then navigated to a file called rockyou.txt. Next I unzipped the the file uzing gunzip. 
+I started Kali Linux and changed the directory to wordlists, I then navigated to a file called rockyou.txt. Next I unzipped the the file using gunzip. 
 
 ![Home Lab47](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2050%20(Using%20metaploit%20to%20generate%20brute%20force%20ssh%20telemetery).PNG)
 
