@@ -21,7 +21,9 @@ I ended up going with Virtual Box as a hypervisor as I was the most familiar wit
 I started by configuring and setting up my ELK server. I then also decided to do this via SSH on my host machine as I found it easier to manage. 
 
 ![Home Lab2](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%202(ELK%20configuration).PNG) 
-![Home Lab3](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%203(ssh%20using%20powershell%20-%20to%20ELK%20server).PNG)
+
+![Home Lab3](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%203ssh%20using%20powershell%20-%20to%20ELK%20server.PNG)
+
 ![Home Lab4](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%204(ssh%20using%20powershell%20-%20to%20ELK%20server%20-%20successx4).PNG)
 
 ## Step 2. 
@@ -50,9 +52,13 @@ I next went over to my web GUI for Elastic to then configure my fleet that would
 port forwarding rule inside of my hypervisor which I will show below.
 
 ![Home Lab8](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%208(fleet%20in%20elastic).PNG)
+
 ![Home Lab9](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%209(fleet%20in%20elastic%20-%20set%20up%20part%202%20).PNG) 
+
 ![Home Lab10](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2010(setting%20up%20fleet%20using%20ssh%20from%20host%20system%20).PNG)
+
 ![Home Lab11](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2011(elastic%20service%20running).PNG)
+
 ![Home Lab12](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20Lab%20on%20premise%2054%20-%20(Web%20GUI%20port%20forwarding%20rule).PNG)
 
 ## Step 6. 
@@ -60,8 +66,11 @@ port forwarding rule inside of my hypervisor which I will show below.
 Next, It was time to install the Elastic agent onto my Windows machine. 
 
 ![Home Lab13](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2012(elastic%20agent%20in%20windows).PNG)
+
 ![Home Lab14](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2013(setting%20upelastic%20agent%20in%20windows%20).PNG)
+
 ![Home Lab15](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2014(setting%20upelastic%20agent%20in%20windows%20-%20incoming%20data%20).PNG)
+
 ![Home Lab16](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2015(%20Dashboard%20overview%20).PNG)
 
 ## Step 7. 
@@ -76,6 +85,7 @@ I then installed the Elastic agent onto my Ubuntu server(SSH).
 Next it was time to install custom Windows logs into my fleet server using the web GUI. 
 
 ![Home Lab18](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2017(%20Adding%20custom%20windows%20logs%20integration%20into%20fleet%20).PNG)
+
 ![Home Lab19](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2018(%20Adding%20custom%20windows%20log%20integrations%20into%20Elastic%20Agent%20-%20Both%20Sysmon%20%26%20Defender%20%20).PNG) 
 
 
@@ -84,8 +94,11 @@ Next it was time to install custom Windows logs into my fleet server using the w
 I then installed docker compose onto my Mythic server - this would be used to access to the containers needed to run my C2 server. I also added another port forwarding rule to access to the web GUI for Mythic. 
 
 ![Home Lab20](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2019%20(Installing%20docker%20compose%20into%20mythic%20server).PNG) 
+
 ![Home Lab21](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2020%20(Installing%20docker%20into%20mythic%20server).PNG)
+
 ![Home Lab22](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2021%20(After%20installing%20new%20port%20forwarding%20rule%20to%20virtual%20box%20for%20access%20to%20web%20GUI).PNG)
+
 ![Home Lab23](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2022%20(After%20getting%20access%20to%20web%20GUI).PNG)
 
 ## Step 10.
@@ -124,6 +137,7 @@ As you can see, the file was then found in the downloads folder - I then ran the
 Next, I went back to my Mythic and looked to see if the file had been downloaded or If I had an active callback, as you can see - it shows up. 
 
 ![Home Lab30](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2030%20File%20then%20shows%20as%20downloaded%20mythic.PNG)
+
 ![Home Lab31](https://github.com/JWALL000/Home-Lab---Setup-/blob/main/Home%20LAB%20on%20premise%2031%20Active%20callback%20mythic.PNG)
 
 
